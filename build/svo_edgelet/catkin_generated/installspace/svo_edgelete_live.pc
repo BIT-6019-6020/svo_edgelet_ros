@@ -1,0 +1,8 @@
+prefix=/media/lab/E_Disk/Lab_Project/VO_modules/svo_edgelet_ws/install
+
+Name: svo_edgelete_live
+Description: Description of svo_edgelete_live
+Version: 0.1.0
+Cflags: -I/media/lab/E_Disk/Lab_Project/VO_modules/svo_edgelet_ws/install/include
+Libs: -L/media/lab/E_Disk/Lab_Project/VO_modules/svo_edgelet_ws/install/lib -lopen_quadtree_mapping_node -lEPENDS -lOpenCV -lEigen -lBoost
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs tf

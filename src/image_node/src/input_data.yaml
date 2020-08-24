@@ -1,0 +1,11 @@
+%YAML:1.0
+#common parameters
+data_pub_topic: "/dji_data/image_raw"
+data_path: "/media/lab/S_disk/data/dji/Video/DJI_0003.mp4"
+#data_path: "/media/lab/DiskDocuments/Data/pics/DJI40_forward1/768x432"
+start_time: 0  #choose start time(s) to input data, if video start frame is fps * start time,if images ,start frame is number of images
+data_type: 0  # 0 --video   1  ---images
+resize: 1
+input_width: 640
+input_height: 360
+input_rate: 30

@@ -1,0 +1,8 @@
+prefix=/media/lab/E_Disk/Lab_Project/VO_modules/svo_edgelet_ws/devel
+
+Name: image_node
+Description: Description of image_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/media/lab/E_Disk/Lab_Project/VO_modules/svo_edgelet_ws/devel/lib -limagePublisher
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs tf
